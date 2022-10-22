@@ -1,0 +1,23 @@
+div {
+
+    width: 300px;
+    height: 100px;
+    background-color: aquamarine;
+    border: 1px solid burlywood;
+}
+
+#div1 {
+    transform: rotateX(150deg);
+}
+
+#div2 {
+    transform: rotateY(150deg);
+}
+
+#div3 {
+    transform: rotateZ(90deg);
+}
+
+#div4 {
+    transform: matrix(1, -0.3, 0, 1, 0, 0);
+  }
